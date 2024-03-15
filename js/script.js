@@ -70,7 +70,7 @@ const nav = document.querySelector(".nav"),
       {
           const sectionIndex = this.getAttribute("data-section-index");
           //console.log(sectionIndex);
-          showSection(this);
+          //showSection(this);
           updateNav(this);
           removeBackSection();
           addBackSection(sectionIndex);
